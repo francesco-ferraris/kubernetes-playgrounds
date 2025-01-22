@@ -1,0 +1,6 @@
+ingress:
+  hosts:
+    - host: localhost
+      paths:
+        - path: /alternative-path/
+          pathType: Prefix
